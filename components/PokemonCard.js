@@ -33,7 +33,7 @@ export default function PokemonCard({
         <View style={styles.card}>
             <View style={styles.nameContainer}>
                 <Text  style={styles.name}>{name}</Text>
-                <Text  style={styles.hp}>♥{hp}</Text>
+                <Text  style={styles.hp}>💖{hp}</Text>
             </View>
             <Image source={image} accessibilityLabel={`${name} pokemon`} style={styles.image} resizeMode="contain"/>
            
